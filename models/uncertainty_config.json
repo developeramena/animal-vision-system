@@ -1,0 +1,73 @@
+{
+  "confidence_threshold": 0.9,
+  "selection_method": "validation_correctness_balanced_score",
+  "limitation": "This threshold measures uncertainty for known classes. Add outside-class images before claiming unknown-animal detection.",
+  "candidates": [
+    {
+      "threshold": 0.4,
+      "correct_acceptance": 1.0,
+      "error_rejection": 0.0,
+      "balanced_score": 0.5
+    },
+    {
+      "threshold": 0.45,
+      "correct_acceptance": 1.0,
+      "error_rejection": 0.0,
+      "balanced_score": 0.5
+    },
+    {
+      "threshold": 0.5,
+      "correct_acceptance": 0.9972489683631361,
+      "error_rejection": 0.043478260869565216,
+      "balanced_score": 0.5203636146163507
+    },
+    {
+      "threshold": 0.55,
+      "correct_acceptance": 0.9958734525447043,
+      "error_rejection": 0.17391304347826086,
+      "balanced_score": 0.5848932480114826
+    },
+    {
+      "threshold": 0.6,
+      "correct_acceptance": 0.9944979367262724,
+      "error_rejection": 0.30434782608695654,
+      "balanced_score": 0.6494228814066145
+    },
+    {
+      "threshold": 0.65,
+      "correct_acceptance": 0.9917469050894085,
+      "error_rejection": 0.30434782608695654,
+      "balanced_score": 0.6480473655881825
+    },
+    {
+      "threshold": 0.7,
+      "correct_acceptance": 0.9889958734525447,
+      "error_rejection": 0.34782608695652173,
+      "balanced_score": 0.6684109802045333
+    },
+    {
+      "threshold": 0.75,
+      "correct_acceptance": 0.9862448418156808,
+      "error_rejection": 0.34782608695652173,
+      "balanced_score": 0.6670354643861013
+    },
+    {
+      "threshold": 0.8,
+      "correct_acceptance": 0.9793672627235214,
+      "error_rejection": 0.43478260869565216,
+      "balanced_score": 0.7070749357095868
+    },
+    {
+      "threshold": 0.85,
+      "correct_acceptance": 0.9724896836313618,
+      "error_rejection": 0.4782608695652174,
+      "balanced_score": 0.7253752765982896
+    },
+    {
+      "threshold": 0.9,
+      "correct_acceptance": 0.9601100412654745,
+      "error_rejection": 0.6521739130434783,
+      "balanced_score": 0.8061419771544764
+    }
+  ]
+}

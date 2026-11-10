@@ -1,0 +1,23 @@
+{
+  "architecture": "EfficientNetB0",
+  "input_size": [
+    224,
+    224,
+    3
+  ],
+  "class_count": 10,
+  "class_names": [
+    "butterfly",
+    "cat",
+    "chicken",
+    "cow",
+    "dog",
+    "elephant",
+    "horse",
+    "sheep",
+    "spider",
+    "squirrel"
+  ],
+  "preprocessing": "RGB 0-255; EfficientNet internal rescaling",
+  "dataset_version": "dataset_v1"
+}
